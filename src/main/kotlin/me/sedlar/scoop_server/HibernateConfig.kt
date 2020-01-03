@@ -1,4 +1,4 @@
-package me.sedlar.spring_test
+package me.sedlar.scoop_server
 
 import org.springframework.boot.jdbc.DataSourceBuilder
 import org.springframework.context.annotation.Bean
@@ -18,7 +18,7 @@ class HibernateConfig {
     fun sessionFactory(): LocalSessionFactoryBean {
         val sessionFactory = LocalSessionFactoryBean()
         sessionFactory.setDataSource(dataSource())
-        sessionFactory.setPackagesToScan("me.sedlar.spring_test.model")
+        sessionFactory.setPackagesToScan("me.sedlar.scoop_server.model")
         sessionFactory.hibernateProperties = hibernateProperties()
         return sessionFactory
     }

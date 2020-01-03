@@ -1,4 +1,4 @@
-package me.sedlar.spring_test
+package me.sedlar.scoop_server
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

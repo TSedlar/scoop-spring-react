@@ -1,9 +1,9 @@
-package me.sedlar.spring_test.helpers
+package me.sedlar.scoop_server.helpers
 
 import java.net.URL
 import kotlinx.serialization.*
 import kotlinx.serialization.json.Json
-import me.sedlar.spring_test.model.Package
+import me.sedlar.scoop_server.model.Package
 
 object Scoop {
 

@@ -1,11 +1,11 @@
-package me.sedlar.spring_test
+package me.sedlar.scoop_server
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringTestApplication
+class ScoopApplication
 
 fun main(args: Array<String>) {
-    runApplication<SpringTestApplication>(*args)
+    runApplication<ScoopApplication>(*args)
 }

@@ -1,7 +1,7 @@
-package me.sedlar.spring_test.dao
+package me.sedlar.scoop_server.dao
 
 import me.sedlar.spring.hibernate.query
-import me.sedlar.spring_test.model.Package
+import me.sedlar.scoop_server.model.Package
 import org.hibernate.SessionFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Repository

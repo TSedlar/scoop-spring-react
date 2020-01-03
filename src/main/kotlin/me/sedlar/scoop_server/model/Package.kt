@@ -1,4 +1,4 @@
-package me.sedlar.spring_test.model
+package me.sedlar.scoop_server.model
 
 import javax.persistence.*
 

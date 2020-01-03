@@ -1,1 +1,1 @@
-rootProject.name = "spring-test"
+rootProject.name = "scoop-spring-react"

@@ -1,4 +1,6 @@
-# spring-react-hibernate-example
+# scoop-spring-react
+
+A back and front end for [Scoop](https://scoop.sh/)
 
 This project example shows how to:
 - Interact with a database through Hibernate
@@ -6,4 +8,4 @@ This project example shows how to:
 
 ## Screenshot
 
-![](https://i.img:ur.com/98LqXXV.gif)
+![](wiki/image.png)

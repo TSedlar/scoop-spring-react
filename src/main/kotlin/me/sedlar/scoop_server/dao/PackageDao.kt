@@ -1,6 +1,6 @@
-package me.sedlar.spring_test.dao
+package me.sedlar.scoop_server.dao
 
-import me.sedlar.spring_test.model.Package
+import me.sedlar.scoop_server.model.Package
 
 interface PackageDao {
 

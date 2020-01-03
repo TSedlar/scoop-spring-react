@@ -1,9 +1,9 @@
-package me.sedlar.spring_test.controller
+package me.sedlar.scoop_server.controller
 
 import kotlinx.serialization.UnstableDefault
-import me.sedlar.spring_test.dao.PackageDao
-import me.sedlar.spring_test.helpers.Scoop
-import me.sedlar.spring_test.model.Package
+import me.sedlar.scoop_server.dao.PackageDao
+import me.sedlar.scoop_server.helpers.Scoop
+import me.sedlar.scoop_server.model.Package
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 import javax.annotation.PostConstruct
